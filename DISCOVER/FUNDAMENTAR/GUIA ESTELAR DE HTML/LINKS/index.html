@@ -1,0 +1,65 @@
+<!--
+    Hyperlinks - Elemento Âncora: <a>
+
+    - Anatomia
+
+    - Atributos:
+        - globais
+        - href
+            - para onde iremos, quando clicarmos no link?
+                - url completa
+                - fragmento
+                - email
+                - telefone
+                - e outros.
+        - download
+        - target
+            - _self (padrão) - utiliza a mesma guia que está aberta atualizando-a
+            - _blank - utiliza uma nova guia
+-->
+
+<p>Encontre-me</p>
+
+<ul>
+    <li><a href="https://rocketseat.com.br" target="_blank">Website</a></li>
+    <li><a href="mailto:may@rocketseat.com.br">Email</a></li>
+    <li><a href="tel:+5511998887766">Telefone</a></li>
+</ul>
+
+<p>Saiba mais</p>
+<ul>
+    <li><a href="#about">Sobre mim</a></li>
+</ul>
+
+<h1 id="about">Sobre mim</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nesciunt pariatur velit distinctio esse, perspiciatis ducimus debitis aperiam, sit dolore ut error nam quos iusto magni quidem? A, dicta ex?</p>
+
+<!--
+    URLs e Caminhos dos arquivos
+
+    - Uniform Resource Locator
+        - https://www.rocketseat.com.br
+        - Sequência de texto que define onde algo está localizado na Web
+    -URLs usam caminhos para encontrar arquivos
+
+    - Caminhos dos arquivos
+        - Onde, no explorador de arquivos, um recurso está localizado
+-->
+
+<a href="hyperlinks.html">Abrir Hyperlinks</a>
+
+<!--
+    URLs absolutos versus relativos
+
+    - Absolutos
+        - inclui o protocolo e nome de domínio
+        - sempre apontará para o mesmo local, pois é absoluto
+
+    - Relativos
+        - relativo à página aberta no momento
+        - apontará para lugares diferentes
+-->
+
+<a href="google.com"> RELATIVO </a> <!-- Ele entenderá como um arquivo na pasta raiz devido a falta do protocolo HTTP-->
+<a href="https://google.com"> ABSOLUTO</a>
+

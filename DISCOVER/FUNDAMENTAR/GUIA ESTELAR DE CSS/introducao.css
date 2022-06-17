@@ -163,3 +163,18 @@ h1{
     muitas propriedades com valores semelhantes, poderemos 
     encontrar problemas
 */
+
+/*
+    FUNÇÕES
+
+    - Nome seguido de abre e fecha parentesis
+    - Recebe argumentos
+
+*/
+
+@import url("http://urlaqui.com/style.css");
+
+p{
+    color: rgb(255,0,100);
+    width: calc(100% - 10px);
+}

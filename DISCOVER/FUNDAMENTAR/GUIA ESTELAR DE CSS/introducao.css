@@ -178,3 +178,24 @@ p{
     color: rgb(255,0,100);
     width: calc(100% - 10px);
 }
+
+/*
+    VENDOR PREFIXES
+
+    Permite que browsers adicionem `features` a fim de colocar
+    em uso alguma novidade que vemos no CSS
+
+    Exemplo
+
+    p {
+        -webkit-background-clip: text;  -> Chrome, Safari, iOS e Android
+        -moz-background-clip: text; -> Mozilla (Firefox)
+        -ms-background-clip: text; -> Internet Explores
+        -o-background-clip: text; -> Opera
+    }
+
+    CONSULTAS 
+
+    http://iread.github.io/which-vendor-prefixes/
+    http://caniuse.com
+*/

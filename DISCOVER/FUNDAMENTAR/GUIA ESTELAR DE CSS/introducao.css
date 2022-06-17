@@ -1,0 +1,72 @@
+/*
+    INTRODUÇÃO
+
+    O que signigica CSS?
+
+    - Cascading Style Sheet
+    - Código para criação de estilos no HTML
+    - HTML é a estrutura, e o CSS é a beleza
+    - Não é uma linguagem de programação
+    - É uma linguagem style sheet
+*/
+
+/*
+    COMENTÁRIOS
+
+    - Não irá afetar o código
+    - Ajuda a lembrar blocos de códigos
+    - Deixa dicas de leitura
+    - Ajuda outros a entenderem
+    - Nunca esqueça de fechar um comentário aberto
+*/
+
+/*
+    ANATOMIA
+
+    - Selector -> h1
+    - Declaration -> {
+                        color: darkcyan;
+                        font-size: 60px;
+                        background: gray;
+                     }
+    - Properties -> color: darkcyan;
+    - Property Value -> darkcyan
+*/
+
+h1{
+    color: darkcyan;
+    font-size: 60px;
+    background: gray;
+}
+
+/*
+    SELECTORS
+
+    Conecta um elemento HTML com o CSS
+
+    TIPOS
+
+    - Global selector -> *
+    - Element/Type selector -> h1, h2, p, div
+    - ID selector -> #box, #container
+    - Class selector -> .red, .m-4
+    - Attribute selector, Pseudo-class, Pseudo-element e outros
+*/
+
+/*
+    BOX MODEL
+
+    - Quase tudo são caixas no CSS
+    - Posicionamentos, tamanhos, espaçamentos, bordas, cores
+    - Caixas podem ficar ao lado uma da outra, ou acima
+    - Elementos HTML são caixas
+*/
+
+/*
+    ADICIONANDO CSS
+
+    - inline -> <h1 style="color:white;">Texto</h1>
+    - <style></style> -> tag html contendo o CSS
+    - <link> -> arquivo CSS externo
+    - @import -> arquivo CSS externo
+*/
